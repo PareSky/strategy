@@ -30,10 +30,10 @@ window.onload = function(){
       round.toEnd1 = function(){};
     },
     start: function(){
-      // console.log('start');
+      console.log('start');
       com1 = parseInt(4*Math.random());
       com2 = parseInt(4*Math.random());
-      // console.log(com1+1,'vs',com2+1);
+      console.log(com1+1,'vs',com2+1);
       app.member[com1]();
       app.member[com2]();
     },
@@ -105,7 +105,7 @@ window.onload = function(){
     round.toEnd();
     round.toEnd1();
     round.end();
-    // console.log('gaot,hawk,pigeon,fox:');
-    // console.log(app.score);
+    console.log('gaot,hawk,pigeon,fox:');
+    console.log(app.score);
   }
 }
