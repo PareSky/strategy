@@ -1,0 +1,2 @@
+# strategy
+strategies for survival
