@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+两个动物遭遇可能发生的情况：
+      双方冲突：
+        胜+2 败-3
+      互不冲突，等待一方离开:
+         胜+4 败-1
+      一方竞争，一方离开：
+        胜+5 败+0
 
-You can use the [editor on GitHub](https://github.com/PareSky/strategy/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+        动物们的策略：
+        goat: 默认不竞争，如果对方竞争它也竞争
+        hawk: 总是竞争
+        pigeon: 总是不竞争
+        fox: 默认竞争，如果对方也竞争就逃跑
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PareSky/strategy/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+        默认四个种群彼此遭遇的概率相同
+        回合数:300
+      
